@@ -141,9 +141,9 @@ const Home = () => {
                   <div className="py-12">
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                       {[
-                        { id: 'K1Xg8b1I2OU', title: '' },
+                        { id: 'K1Xg8b1I2OU', title: '1000 Hallelujah' },
                         { id: 'WneegcRK89w', title: 'The Purpose of Prayer' },
-                        { id: 'F3M8phaFKzc', title: 'Faith in the Wilderness' },
+                        { id: 'F3M8phaFKzc', title: '1000 Hallelujah (Psalm96)' },
                       ].map((video, index) => (
                         <motion.div
                           key={video.id}
