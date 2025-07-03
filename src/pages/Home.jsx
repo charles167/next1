@@ -141,7 +141,7 @@ const Home = () => {
                   <div className="py-12">
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                       {[
-                        { id: 'K1Xg8b1I2OU', title: 'How To Walk In The Spirit' },
+                        { id: 'K1Xg8b1I2OU', title: '' },
                         { id: 'WneegcRK89w', title: 'The Purpose of Prayer' },
                         { id: 'F3M8phaFKzc', title: 'Faith in the Wilderness' },
                       ].map((video, index) => (
