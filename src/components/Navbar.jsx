@@ -50,7 +50,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center">
             <span className={`font-display text-3xl font-bold transition-colors ${scrolled ? 'gradient-text' : 'text-white'}`}>
-              Mayoher
+              Mayo
             </span>
           </Link>
 
