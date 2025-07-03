@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* ------------------------------------
+   Custom Theme - White and Blue
+------------------------------------ */
+:root {
+  --background: 0 0% 100%;
+  --foreground: 215 25% 20%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 215 25% 20%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 215 25% 20%;
+
+  --primary: 222 85% 55%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 210 60% 95%;
+  --secondary-foreground: 215 25% 20%;
+
+  --muted: 210 20% 98%;
+  --muted-foreground: 215 15% 50%;
+
+  --accent: 222 100% 90%;
+  --accent-foreground: 215 25% 20%;
+
+  --destructive: 0 85% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 210 20% 90%;
+  --input: 210 20% 90%;
+  --ring: 222 85% 55%;
+
+  --radius: 0.75rem;
+}
+
+.dark {
+  --background: 215 30% 10%;
+  --foreground: 0 0% 100%;
+
+  --card: 215 30% 12%;
+  --card-foreground: 0 0% 100%;
+
+  --popover: 215 30% 12%;
+  --popover-foreground: 0 0% 100%;
+
+  --primary: 222 85% 65%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 215 20% 20%;
+  --secondary-foreground: 0 0% 100%;
+
+  --muted: 215 20% 18%;
+  --muted-foreground: 210 15% 65%;
+
+  --accent: 222 85% 70%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 80% 65%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 215 25% 25%;
+  --input: 215 25% 25%;
+  --ring: 222 85% 55%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+  }
+
+  footer {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+}
+
+.font-display {
+  font-family: 'Inter', sans-serif;
+}
+
+/* ------------------------------------
+   Custom Utility Classes
+------------------------------------ */
+.gradient-text {
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px hsla(var(--foreground), 0.05);
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px hsla(var(--foreground), 0.1);
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+}
+
+.bg-pattern {
+  background-image:
+    radial-gradient(circle at 25% 25%, hsla(var(--primary), 0.06) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, hsla(var(--primary), 0.06) 0%, transparent 50%);
+}
