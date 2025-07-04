@@ -26,7 +26,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Mayoher - Inspiration for the Journey. Creativity for the Soul.</title>
+        <title>mayo - Inspiration for the Journey. Creativity for the Soul.</title>
         <meta name="description" content="Music, books, devotionals, videos, and live events designed to stir your spirit and empower your walk." />
       </Helmet>
 

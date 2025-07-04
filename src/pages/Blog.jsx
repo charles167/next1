@@ -18,8 +18,8 @@
 //   return (
 //     <>
 //       <Helmet>
-//         <title>Videos - Encouragement On Demand - Mayoher</title>
-//         <meta name="description" content="Uplifting videos, honest reflections, and soul-nourishing posts from Mayoher." />
+//         <title>Videos - Encouragement On Demand - mayo</title>
+//         <meta name="description" content="Uplifting videos, honest reflections, and soul-nourishing posts from mayo." />
 //       </Helmet>
 //       <div className="pt-20 bg-background">
 //         <section className="py-20 lg:py-32 text-center">

@@ -38,7 +38,7 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact - Mayoher</title>
+        <title>Contact - mayo</title>
         <meta name="description" content="Have a question, a testimony to share, or an invitation to collaborate? I would love to hear from you." />
       </Helmet>
 
@@ -100,7 +100,7 @@ const Contact = () => {
         <section className="py-20 lg:py-32 bg-secondary text-center">
             <div className="max-w-4xl mx-auto px-4">
                 <h2 className="font-display text-3xl font-bold mb-4 text-heading-indigo">Find me on social media</h2>
-                <p className="text-muted-foreground mb-8">Email: <a href="mailto:hello@mayoher.com" className="text-primary hover:underline">hello@mayoher.com</a></p>
+                <p className="text-muted-foreground mb-8">Email: <a href="mailto:hello@mayo.com" className="text-primary hover:underline">hello@mayo.com</a></p>
                 <div className="flex justify-center space-x-6">
                   <button onClick={() => handleSocialClick('Instagram')} className="text-foreground hover:text-primary transition-colors"><Instagram className="h-8 w-8" /></button>
                   <button onClick={() => handleSocialClick('Facebook')} className="text-foreground hover:text-primary transition-colors"><FacebookIcon className="h-8 w-8" /></button>

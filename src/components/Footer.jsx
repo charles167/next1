@@ -16,9 +16,9 @@ const Footer = () => {
   };
 
   const socialLinks = {
-    instagram: 'https://www.instagram.com/mayoher?igsh=MTNmZ2ZjdmRlOWswcQ%3D%3D&utm_source=qr',
+    instagram: 'https://www.instagram.com/mayo?igsh=MTNmZ2ZjdmRlOWswcQ%3D%3D&utm_source=qr',
     facebook: 'https://www.facebook.com/share/15ZqYrnSWJ/?mibextid=wwXIfr',
-    youtube: 'https://youtube.com/@mayoher?si=s8R16ZmKYukaw6B4',
+    youtube: 'https://youtube.com/@mayo?si=s8R16ZmKYukaw6B4',
   };
 
   const handleSearch = () => {
@@ -34,7 +34,7 @@ const Footer = () => {
     <div className="flex flex-col lg:flex-row justify-between gap-12 flex-wrap">
       {/* Branding and Socials */}
       <div className="flex-1 min-w-[220px]">
-        <h3 className="font-display text-3xl font-bold mb-4 text-heading-indigo">Mayoher</h3>
+        <h3 className="font-display text-3xl font-bold mb-4 text-heading-indigo">mayo</h3>
         <p className="text-muted-foreground mb-4">
           Inspiration for the Journey. Creativity for the Soul.
         </p>
@@ -77,7 +77,7 @@ const Footer = () => {
 
     {/* Bottom Bar */}
     <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
-      <p className="text-muted-foreground mb-4 md:mb-0">© 2025 Mayoher. All rights reserved.</p>
+      <p className="text-muted-foreground mb-4 md:mb-0">© 2025 mayo. All rights reserved.</p>
       <div className="flex items-center space-x-4">
         <button onClick={handleSearch} className="text-muted-foreground hover:text-primary transition-colors">
           <Search className="h-5 w-5" />

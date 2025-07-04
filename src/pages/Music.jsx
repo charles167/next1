@@ -23,10 +23,10 @@ const Music = () => {
   return (
     <>
       <Helmet>
-        <title>Music - Mayoher</title>
+        <title>Music - mayo</title>
         <meta
           name="description"
-          content="Listen to music by Mayoher. Explore the full discography on Spotify."
+          content="Listen to music by mayo. Explore the full discography on Spotify."
         />
       </Helmet>
 
