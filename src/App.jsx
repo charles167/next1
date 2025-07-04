@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Toaster } from '@/components/ui/toaster';
 import Navbar from '@/components/Navbar';
 import Home from '@/pages/Home';
-import Shop from '@/pages/Shop';
+import Explorework from '@/pages/Explorework';
 import About from '@/pages/About';
 import Events from '@/pages/Events';
 import Blog from '@/pages/Blog';
@@ -19,7 +19,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/shop" element={<Shop />} />
+            <Route path="/Explorework" element={<Explorework />} />
             <Route path="/about" element={<About />} />
             <Route path="/events" element={<Events />} />
             <Route path="/blog" element={<Blog />} />
