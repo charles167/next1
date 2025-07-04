@@ -7,7 +7,7 @@ import { toast } from '@/components/ui/use-toast';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Music, BookOpen, Calendar, Video, Play, ExternalLink } from 'lucide-react';
 
-const Shop = () => {
+const Explorework = () => {
   const handleLink = (url) => {
     window.open(url, '_blank', 'noopener,noreferrer');
   };
@@ -161,4 +161,4 @@ const Shop = () => {
   );
 };
 
-export default Shop;
+export default Explorework;
