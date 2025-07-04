@@ -22,8 +22,8 @@ const Explorework = () => {
   return (
     <>
       <Helmet>
-        <title>Shop - mayo</title>
-        <meta name="description" content="Shop for music, books, devotionals, event tickets, and more from mayo." />
+        <title>Explorework - mayo</title>
+        <meta name="description" content="Explorework for music, books, devotionals, event tickets, and more from mayo." />
       </Helmet>
       <div className="pt-20 bg-background">
         <section className="py-20 lg:py-32 bg-secondary">
@@ -34,7 +34,7 @@ const Explorework = () => {
               transition={{ duration: 0.8 }}
               className="text-center mb-16"
             >
-              <h1 className="font-display text-5xl md:text-6xl font-bold mb-4 text-heading-royal">Shop</h1>
+              <h1 className="font-display text-5xl md:text-6xl font-bold mb-4 text-heading-royal">Explorework</h1>
               <p className="text-xl text-muted-foreground">Browse all creative works from mayo.</p>
             </motion.div>
             <Tabs defaultValue="music" className="w-full">

@@ -50,7 +50,7 @@ const Footer = () => {
         <span className="font-bold uppercase tracking-wider text-sm mb-4 block">Navigate</span>
         <div className="space-y-3">
           <Link to="/" className="block text-muted-foreground hover:text-primary transition-colors">Home</Link>
-          <Link to="/shop" className="block text-muted-foreground hover:text-primary transition-colors">Shop</Link>
+          <Link to="/Explorework" className="block text-muted-foreground hover:text-primary transition-colors">Explorework</Link>
           <Link to="/about" className="block text-muted-foreground hover:text-primary transition-colors">About</Link>
           <Link to="/events" className="block text-muted-foreground hover:text-primary transition-colors">Events</Link>
           <Link to="/blog" className="block text-muted-foreground hover:text-primary transition-colors">Blog</Link>

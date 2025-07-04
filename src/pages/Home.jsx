@@ -100,7 +100,7 @@ const Home = () => {
                         </Button>
                       ))}
                     </div>
-                    <Link to="/shop">
+                    <Link to="/Explorework">
                       <Button variant="link" className="text-primary">
                         Browse Music →
                       </Button>
@@ -116,7 +116,7 @@ const Home = () => {
                     <p className="max-w-2xl mx-auto text-muted-foreground mb-6">
                       Explore books and devotionals crafted to deepen your faith, renew your mind, and ignite your calling.
                     </p>
-                    <Link to="/shop">
+                    <Link to="/Explorework">
                       <Button>Browse Books & Devotionals</Button>
                     </Link>
                   </div>
