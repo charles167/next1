@@ -26,7 +26,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>mayo - Inspiration for the Journey. Creativity for the Soul.</title>
+        <title>A Voice of Fire. A Mind of Vision. A Life of Impact</title>
         <meta name="description" content="Music, books, devotionals, videos, and live events designed to stir your spirit and empower your walk." />
       </Helmet>
 
@@ -64,6 +64,72 @@ const Home = () => {
             </Button>
           </motion.div>
         </section>
+
+      <section className="py-20 bg-white">
+  <div className="max-w-7xl mx-auto px-4">
+    <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Discover More</h2>
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      {/* Card 1 */}
+      <div className="group overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+        <img
+          src="four.jpg"
+          alt="Vision"
+          className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        <div className="p-4">
+          <h3 className="text-xl font-semibold text-gray-800">Our Vision</h3>
+          <p className="text-gray-600 mt-2">Explore the purpose and heart behind our mission.</p>
+          <a href="/vision" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
+        </div>
+      </div>
+
+      {/* Card 2 */}
+      <div className="group overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+        <img
+          src="three.jpg"
+          alt="Team"
+          className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        <div className="p-4">
+          <h3 className="text-xl font-semibold text-gray-800">Meet the Team</h3>
+          <p className="text-gray-600 mt-2">Get to know the people who bring our vision to life.</p>
+          <a href="/team" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
+        </div>
+      </div>
+
+      {/* Card 3 */}
+      <div className="group overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+        <img
+          src="two.jpg"
+          alt="Music"
+          className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        <div className="p-4">
+          <h3 className="text-xl font-semibold text-gray-800">social media</h3>
+          <p className="text-gray-600 mt-2">Dive into our latest songs and creative expressions.</p>
+          <a href="/music" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
+        </div>
+      </div>
+
+      {/* Card 4 */}
+      <div className="group overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+        <img
+          src="one.jpg"
+          alt="Events"
+          className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        <div className="p-4">
+          <h3 className="text-xl font-semibold text-gray-800">Upcoming Events</h3>
+          <p className="text-gray-600 mt-2">Join us for worship nights, workshops, and more.</p>
+          <a href="/events" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
         {/* Main Content */}
         <div id="main-content">

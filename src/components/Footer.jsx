@@ -36,7 +36,11 @@ const Footer = () => {
       <div className="flex-1 min-w-[220px]">
         <h3 className="font-display text-3xl font-bold mb-4 text-heading-indigo">mayo</h3>
         <p className="text-muted-foreground mb-4">
-          Inspiration for the Journey. Creativity for the Soul.
+          Let’s stay connected beyond the moments.
+
+If you're drawn to honest conversations, music that stirs the soul, and thoughts that make you pause and reflect — come hang out with me online.
+
+I share pieces of the journey — music, faith, lessons, laughter, and the in-between.
         </p>
         <div className="flex space-x-4">
           <a href={socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors"><Instagram className="h-6 w-6" /></a>
@@ -60,7 +64,11 @@ const Footer = () => {
 
       {/* Newsletter Signup */}
       <div className="flex-1 min-w-[220px]">
-        <span className="font-bold uppercase tracking-wider text-sm mb-4 block">Stay Inspired</span>
+        <span className="font-bold uppercase tracking-wider text-sm mb-4 block">If you’re hungry for deeper conversations — about faith, purpose, business insights, creativity, and walking with God in real life; this is for you.
+
+From song updates/releases and stories, journal reflections to leadership thoughts, I’ll be sharing what’s stirring in my heart.
+
+Kindly subscribe to my newsletter</span>
         <form onSubmit={handleNewsletterSignup} className="flex flex-col space-y-2">
           <input
             type="email"
