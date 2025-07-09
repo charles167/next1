@@ -72,14 +72,14 @@ const Home = () => {
       {/* Card 1 */}
       <div className="group overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
         <img
-          src="four.jpg"
+          src="five.jpg"
           alt="Vision"
           className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
         />
         <div className="p-4">
           <h3 className="text-xl font-semibold text-gray-800">Music</h3>
           <p className="text-gray-600 mt-2">Explore the purpose and heart behind our mission.</p>
-          <a href="/Music" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
+          <a href="https://open.spotify.com/artist/2vcjogMCAZpBE9uJGGDY6o?si=zGZTJBaUTJOR48t3ZZw3Pw" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
         </div>
       </div>
 
