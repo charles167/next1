@@ -68,7 +68,7 @@ I share pieces of the journey music, faith, lessons, laughter, and the in-betw
 
 From song updates/releases and stories, journal reflections to leadership thoughts, I’ll be sharing what’s stirring in my heart.
 
-Kindly subscribe to my newsletter</span>
+Kindly subscribe to my newsletter</span>
         <form onSubmit={handleNewsletterSignup} className="flex flex-col space-y-2">
           <input
             type="email"

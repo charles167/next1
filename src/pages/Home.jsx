@@ -121,7 +121,7 @@ const Home = () => {
         <div className="p-4">
           <h3 className="text-xl font-semibold text-gray-800">Upcoming Events</h3>
           <p className="text-gray-600 mt-2">Join us for worship nights, workshops, and more.</p>
-          <a href="/events" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
+          <a href="/Events" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
         </div>
       </div>
     </div>
