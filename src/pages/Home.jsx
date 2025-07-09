@@ -50,7 +50,7 @@ const Home = () => {
             className="relative z-10 p-4"
           >
             <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
-              Inspiration for the Journey.<br />Creativity for the Soul.
+              A Voice of Fire. A Mind of Vision. <br />A Life of Impact.
             </h1>
             <p className="text-lg md:text-xl max-w-3xl mx-auto mb-8 opacity-90">
               Music, books, devotionals, videos, and live events designed to stir your spirit and empower your walk.
@@ -77,9 +77,9 @@ const Home = () => {
           className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
         />
         <div className="p-4">
-          <h3 className="text-xl font-semibold text-gray-800">Our Vision</h3>
+          <h3 className="text-xl font-semibold text-gray-800">Music</h3>
           <p className="text-gray-600 mt-2">Explore the purpose and heart behind our mission.</p>
-          <a href="/vision" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
+          <a href="/Music" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
         </div>
       </div>
 
@@ -91,9 +91,9 @@ const Home = () => {
           className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
         />
         <div className="p-4">
-          <h3 className="text-xl font-semibold text-gray-800">Meet the Team</h3>
+          <h3 className="text-xl font-semibold text-gray-800">Book</h3>
           <p className="text-gray-600 mt-2">Get to know the people who bring our vision to life.</p>
-          <a href="/team" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
+          <a href="/Book" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
         </div>
       </div>
 
@@ -105,9 +105,9 @@ const Home = () => {
           className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
         />
         <div className="p-4">
-          <h3 className="text-xl font-semibold text-gray-800">social media</h3>
+          <h3 className="text-xl font-semibold text-gray-800">video</h3>
           <p className="text-gray-600 mt-2">Dive into our latest songs and creative expressions.</p>
-          <a href="/music" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
+          <a href="https://www.youtube.com/channel/UCin49CgNS72z5wrHBFa5UzQ" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
         </div>
       </div>
 

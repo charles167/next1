@@ -16,9 +16,9 @@ const Footer = () => {
   };
 
   const socialLinks = {
-    instagram: 'https://www.instagram.com/mayo?igsh=MTNmZ2ZjdmRlOWswcQ%3D%3D&utm_source=qr',
+    instagram: 'https://www.instagram.com/Mayo?igsh=MTNmZ2ZjdmRlOWswcQ%3D%3D&utm_source=qr',
     facebook: 'https://www.facebook.com/share/15ZqYrnSWJ/?mibextid=wwXIfr',
-    youtube: 'https://youtube.com/@mayo?si=s8R16ZmKYukaw6B4',
+    youtube: 'https://youtube.com/@Mayo?si=s8R16ZmKYukaw6B4',
   };
 
   const handleSearch = () => {
@@ -34,13 +34,13 @@ const Footer = () => {
     <div className="flex flex-col lg:flex-row justify-between gap-12 flex-wrap">
       {/* Branding and Socials */}
       <div className="flex-1 min-w-[220px]">
-        <h3 className="font-display text-3xl font-bold mb-4 text-heading-indigo">mayo</h3>
+        <h3 className="font-display text-3xl font-bold mb-4 text-heading-indigo">Mayo</h3>
         <p className="text-muted-foreground mb-4">
           Let’s stay connected beyond the moments.
 
-If you're drawn to honest conversations, music that stirs the soul, and thoughts that make you pause and reflect — come hang out with me online.
+If you're drawn to honest conversations, music that stirs the soul, and thoughts that make you pause and reflect come hang out with me online.
 
-I share pieces of the journey — music, faith, lessons, laughter, and the in-between.
+I share pieces of the journey music, faith, lessons, laughter, and the in-between.
         </p>
         <div className="flex space-x-4">
           <a href={socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors"><Instagram className="h-6 w-6" /></a>
@@ -54,7 +54,7 @@ I share pieces of the journey — music, faith, lessons, laughter, and the in-
         <span className="font-bold uppercase tracking-wider text-sm mb-4 block">Navigate</span>
         <div className="space-y-3">
           <Link to="/" className="block text-muted-foreground hover:text-primary transition-colors">Home</Link>
-          <Link to="/Explorework" className="block text-muted-foreground hover:text-primary transition-colors">Explorework</Link>
+          <Link to="/Explore work" className="block text-muted-foreground hover:text-primary transition-colors">Explorework</Link>
           <Link to="/about" className="block text-muted-foreground hover:text-primary transition-colors">About</Link>
           <Link to="/events" className="block text-muted-foreground hover:text-primary transition-colors">Events</Link>
           <Link to="/blog" className="block text-muted-foreground hover:text-primary transition-colors">Blog</Link>
@@ -85,7 +85,7 @@ Kindly subscribe to my newsletter</span>
 
     {/* Bottom Bar */}
     <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
-      <p className="text-muted-foreground mb-4 md:mb-0">© 2025 mayo. All rights reserved.</p>
+      <p className="text-muted-foreground mb-4 md:mb-0">© 2025 Mayo. All rights reserved.</p>
       <div className="flex items-center space-x-4">
         <button onClick={handleSearch} className="text-muted-foreground hover:text-primary transition-colors">
           <Search className="h-5 w-5" />

@@ -48,8 +48,8 @@
 //   return (
 //     <>
 //       <Helmet>
-//         <title>Events - mayo</title>
-//         <meta name="description" content="Join mayo at upcoming concerts, workshops, and live events." />
+//         <title>Events - Mayo</title>
+//         <meta name="description" content="Join Mayo at upcoming concerts, workshops, and live events." />
 //       </Helmet>
 
 //       <div className="pt-20 bg-background">
@@ -134,7 +134,7 @@ const Events = () => {
   return (
     <>
       <Helmet>
-        <title>Events Coming Soon - mayo</title>
+        <title>Events Coming Soon - Mayo</title>
         <meta name="description" content="Exciting events are on the horizon. Stay tuned!" />
       </Helmet>
 

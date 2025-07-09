@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About mayo - A Vibrant Creative Force</title>
+        <title>About Mayo - A Vibrant Creative Force</title>
         <meta name="description" content="Mayo is a vibrant creative force and a powerful voice for her generation. As a gospel artist, writer, entrepreneur, and speaker, she moves hearts with her soulful sound and spirit-led words." />
       </Helmet>
 
@@ -22,7 +22,7 @@ const About = () => {
               >
                 <img
                   src="/WhatsApp Image 2025-06-30 at 14.48.19_65b878a9.jpg"
-                  alt="Portrait of mayo singing"
+                  alt="Portrait of Mayo singing"
                   className="w-full h-full object-cover"
                 />
               </motion.div>
@@ -32,7 +32,7 @@ const About = () => {
                 transition={{ duration: 0.8 }}
               >
                 <h1 className="font-display text-5xl md:text-6xl font-bold mb-8 text-heading-royal">
-                  About mayo
+                  About Mayo
                 </h1>
                 <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                     <p>
