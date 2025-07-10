@@ -121,7 +121,7 @@ const Home = () => {
         <div className="p-4">
           <h3 className="text-xl font-semibold text-gray-800">Upcoming Events</h3>
           <p className="text-gray-600 mt-2">Join us for worship nights, workshops, and more.</p>
-          <a href="/Events" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
+          <a href="https://mayoher.com/events" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
         </div>
       </div>
     </div>
@@ -137,10 +137,7 @@ const Home = () => {
             <div className="max-w-6xl mx-auto px-4">
               <Tabs defaultValue="music" className="w-full">
                 <TabsList className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 mb-12">
-                  <TabsTrigger value="music">Music</TabsTrigger>
-                  <TabsTrigger value="books">Books</TabsTrigger>
-                  <TabsTrigger value="events">Events</TabsTrigger>
-                  <TabsTrigger value="videos">Videos</TabsTrigger>
+                 
                   <TabsTrigger value="instrumentals">Instrumentals</TabsTrigger>
                 </TabsList>
 
