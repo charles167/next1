@@ -7,6 +7,7 @@ import { toast } from '@/components/ui/use-toast';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Music, BookOpen, Calendar, Video, Play, ExternalLink, Flame } from 'lucide-react';
 
+
 const Home = () => {
   const handleCTA = (path) => {
     document.getElementById(path)?.scrollIntoView({ behavior: 'smooth' });
@@ -91,10 +92,13 @@ const Home = () => {
           className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
         />
         <div className="p-4">
-          <h3 className="text-xl font-semibold text-gray-800">Book</h3>
-          <p className="text-gray-600 mt-2">Get to know the people who bring our vision to life.</p>
-          <a href="/Book" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
-        </div>
+  <h3 className="text-xl font-semibold text-gray-800">Book</h3>
+  <p className="text-gray-600 mt-2">Get to know the people who bring our vision to life.</p>
+  <Link to="/books" className="text-blue-600 hover:underline mt-3 inline-block">
+    Learn More →
+  </Link>
+</div>
+
       </div>
 
       {/* Card 3 */}
@@ -121,7 +125,9 @@ const Home = () => {
         <div className="p-4">
           <h3 className="text-xl font-semibold text-gray-800">Upcoming Events</h3>
           <p className="text-gray-600 mt-2">Join us for worship nights, workshops, and more.</p>
-          <a href="https://mayoher.com/events" className="text-blue-600 hover:underline mt-3 inline-block">Learn More →</a>
+          <Link to="/events" className="text-blue-600 hover:underline mt-3 inline-block">
+    Learn More →
+  </Link>
         </div>
       </div>
     </div>

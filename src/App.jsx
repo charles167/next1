@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Toaster } from '@/components/ui/toaster';
 import Navbar from '@/components/Navbar';
 import Home from '@/pages/Home';
+import { Link } from 'react-router-dom';
+
 import Explorework from '@/pages/Explorework';
 import About from '@/pages/About';
 import Events from '@/pages/Events';
@@ -10,6 +12,7 @@ import Blog from '@/pages/Blog';
 import Contact from '@/pages/Contact';
 import Music from '@/pages/Music';
 import Footer from '@/components/Footer';
+import Books from '@/pages/Books';
 
 function App() {
   return (
@@ -25,6 +28,8 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/music" element={<Music />} />
+            <Route path="/books" element={<Books />} />
+
           </Routes>
         </main>
         <Footer />
