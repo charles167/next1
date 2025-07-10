@@ -64,8 +64,10 @@ I share pieces of the journey music, faith, lessons, laughter, and the in-betw
 
       {/* Newsletter Signup */}
       <div className="flex-1 min-w-[220px]">
-        <span className="font-bold uppercase tracking-wider text-sm mb-4 block">If you’re  hungry for deeper conversations — about faith,  purpose, business insight, creativity, and walking with  God in real life; This is for you. from song updates/releases and stories, journal reflections to leadership thoughts,
-            i’ll be sharing what’s stirring in my heart. kindly subscribe to my newsletter</span>
+        <span className="text-muted-foreground mb-4">
+  if you’re hungry for deeper conversations — about faith, purpose, business insight, creativity, and walking with god in real life; this is for you. from song updates/releases and stories, journal reflections to leadership thoughts, i’ll be sharing what’s stirring in my heart. kindly subscribe to my newsletter
+</span>
+
         <form onSubmit={handleNewsletterSignup} className="flex flex-col space-y-2">
           <input
             type="email"
